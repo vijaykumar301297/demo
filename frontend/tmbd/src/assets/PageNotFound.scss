@@ -1,0 +1,55 @@
+.pageNotFound {
+    height: 93vh;
+    margin: 2rem;
+    background-color: $color-dark-1; 
+    padding: 2rem 5rem;
+    overflow-y: hidden;
+
+    section {
+        width: 100%;
+        margin: 9rem auto;
+        display: grid;
+        grid-template-columns: none;
+        justify-content: center;
+        align-items: center;
+        gap: 7rem;
+        height: 50vh;
+
+        div {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 4rem;
+            line-height: 1.2;
+            margin-bottom: 3rem;
+        }
+
+        p {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            padding: 1rem 0;
+        }
+
+        a {
+            margin-top: 2rem;
+        }
+
+        .btn-back {
+            color: #fff;
+            padding: 1rem 3rem;
+            background: $color-brand-2; 
+            text-decoration: none;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background: $color-dark-2; 
+            }
+        }
+    }
+}
